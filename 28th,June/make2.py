@@ -1,6 +1,6 @@
-todolist = ["Read Jujutsu Kaisen", "Rewatch the Bear", "Finish NieR: Automata"]
+todolist = ["Read Jujutsu Kaisen", "Rewatch The Bear", "Finish NieR: Automata"]
 
-for task, counter in enumerate(todolist, 10):
-    print(f"{counter}. {task}")
+for number, task in enumerate(todolist, 1):
+    print(f"{task}. {number}")
 
 print(f"{len(todolist)} tasks left to do.")
