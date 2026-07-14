@@ -1,0 +1,4 @@
+day1: python 40
+day2: rest 0
+day3: python 55
+day4: linux 30
