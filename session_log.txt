@@ -1,4 +1,4 @@
-day1: python 40
-day2: rest 0
-day3: python 55
-day4: linux 30
+day1: Python 40
+day2: Linux 25
+day3: Python 20
+day4: CAD 50
