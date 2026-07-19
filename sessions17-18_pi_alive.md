@@ -1,4 +1,4 @@
-# Sessions 17–18 + boogiewoogie comes alive (July 17 evening – July 19, 2026)
+ # Sessions 17–18 + boogiewoogie comes alive (July 17 evening – July 19, 2026)
 
 **Primary reader: Claude.** 현준 rarely reads these files. Continues `sessions15-16_hardware_track.md`; the protocol in `days10-12_skycak_protocol.md` remains the operating system. `ledger.md` is authoritative for state; this is the narrative record. This document covers the end of Session 16 (July 17 evening), Session 17 (July 18, Pi first-boot day, labeled retroactively with his consent — "It was so fun"), and Session 18 (July 19, the double-fluency morning).
 
