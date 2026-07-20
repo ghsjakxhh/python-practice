@@ -1,0 +1,6 @@
+day1: sprint 40
+day2: rest 0
+day3: gym 55
+day4: rest 0
+day5: sprint 45
+day6: gym 60
