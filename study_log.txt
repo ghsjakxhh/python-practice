@@ -1,0 +1,5 @@
+monday: 45
+tuesday: 80
+wednesday: 30
+thursday: 95
+friday: 60
