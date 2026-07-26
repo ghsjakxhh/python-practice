@@ -1,0 +1,5 @@
+day1: food 8000
+day2: transport 3000
+day3: food 12000
+day4: study 15000
+day5: food 6500
