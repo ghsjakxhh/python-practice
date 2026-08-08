@@ -1,12 +1,15 @@
-# ledger.md — updated 2026-08-01 (evening), end of Session 29 (day 37)
+# ledger.md — updated 2026-08-08, end of Session 32 (day 44)
 # Complete Skycak artifact: STATE (Part A) + GRAPH (Part B) + HARDWARE (Part C).
-# Supersedes the 2026-08-01 afternoon print AND the 2026-07-31 print.
-# Covers Jul 31 evening + Aug 1 full day (days 36–37).
-# ★ SESSION NUMBERING CONVENTION AMENDED (Aug 1, his design):
+# Supersedes the 2026-08-01 evening print.
+# Covers Aug 3 (S30), Aug 4 (S31), Aug 8 (S32) — days 39, 40, 44.
+# ★ SESSION NUMBERING CONVENTION (Aug 1, his design):
 #   ONE session number per calendar day; multiple sits fold into it.
-#   Aug 1 = S29 (Python review block + Linux block, three sits).
 #   Historical Jul 31 = S27+S28 stands as an artifact of the old convention —
-#   committed history is not renumbered. Rule applies Aug 1 forward.
+#   committed history is not renumbered.
+# ★ RECORD CORRECTION (Aug 8): the ~Aug 9 N40/N41 clocks were labeled
+#   "second-defense" in the queue while the evidence rows already showed
+#   Jul 26 as the 2nd defense. Aug 8 was therefore the THIRD defense for both.
+#   Mislabel had been copied forward three prints. Corrected at source.
 # Node IDs (N1…) are file-internal shorthand only — full names in conversation.
 
 ═══════════════════════════════════════════════
@@ -15,19 +18,24 @@
 
 ## ★ PROGRAM STRUCTURE
 **CS (Python + Linux) = single-track steady state. Mathematics holds the primary daily slot.**
-- One solid CS block per day — a floor and a steady-state, not a ceiling. ~31 days to summer break's end.
+- One solid CS block per day — a floor and a steady-state, not a ceiling.
 - Block selection rule: **the queue picks the block.** Due reviews/defenses first; frontier or production when nothing is due.
-- **One session number per calendar day** (amended Aug 1). Extra sits by appetite fold into the day's session. The guarded failure mode remains CS eating the math slot — not observed; will be named if seen.
+- **One session number per calendar day.** Extra sits by appetite fold into the day's session.
 - **BURST MODE** (installed 2026-07-25, his design): a burst = one completed atom · indivisible work stays block-shaped · zero decision cost via the standing BURST MENU · atoms accumulate toward the day's block.
-- **DAY COUNT, not streak.** Calendar days since June 26, zero days included. **Aug 1 = day 37.** Zero days on record: Jul 9, Jul 11, Jul 22, Jul 29 (4th).
+- **PARTIAL BLOCK is a real ledger category** (established Aug 3): a non-zero day carrying one atom is logged as a partial block, not a full session. One atom ≠ one block, by burst mode's own definition.
+- **DAY COUNT, not streak.** Calendar days since June 26, zero days included. **Aug 8 = day 44.**
+  Zero days on record (8): Jul 9 · Jul 11 · Jul 22 · Jul 29 · **Aug 2 · Aug 5 · Aug 6 · Aug 7**.
+- **Prioritization rule (named Aug 8):** when a debt and a clocked item compete, the clocked item wins.
+  Debts have no expiry and can improve with age; spacing clocks overrun into re-establishment.
+  Convenience arguments ("setup's already written," "milestone value") do not outrank an expiry date.
 - Optional cleanup, filed not assigned: `19th,July/item3.py` still says `streak`; file still streak_log.txt.
 
 ## ★ BURST MENU (current)
-1. **Tally-dict cold rep, FRESH data** — promotes N72; minutes-sized
-2. **Bandit 2→3** — next level; the remaining N49 cold rep rides on file-hiding levels. Twice queued, zero runs
-3. **Container cold rep** — from blank, no notes: run any image with one published port + one mounted folder, verify in browser, destroy, recreate
+1. **N49 find/grep cold retry** — spec written Aug 4, setup aborted on a paste fault, never run. Closes Tier L's last debt. Atom-sized (12:00 cap)
+2. **Container cold rep** — from blank, no notes: run any image with one published port + one mounted folder, verify in browser, destroy, recreate
+3. **Bandit 3→4** — next level
 4. **hack3 run** — day-count log (runs since Jul 19 unconfirmed)
-(Pair-yielding consumed Jul 31. REP 2 permissions consumed Aug 1 — promoted.)
+(Pair-yielding consumed Jul 31 · REP 2 permissions consumed Aug 1 · **tally consumed Aug 3 — promoted** · **Bandit 2→3 consumed Aug 4 — cleared**.)
 
 ## Fluent (legacy — spot-check occasionally, don't drill)
 N1 variables · N2 f-strings · N3 string methods · N6 lists · N7 for loops · N8 unpacking ·
@@ -37,112 +45,120 @@ N22 try/except · N5 Git · N30 with-frame
 ## Fluent (recent promotions)
 | Node | Evidence | Next review |
 |---|---|---|
-| **N40 composition** | Jul 16 13:28 → Jul 19 9:47 → Jul 26 2nd defense 8:00/15:00 | 7→14d, **~Aug 9 — APPROACHING** |
-| **N41 integrative ladder** | Jul 16 fail → Jul 17 +1:00 → Jul 19 5:40 → Jul 26 2nd defense 5:56/12:00 | 7→14d, **~Aug 9 — APPROACHING** |
-| N36 record-keeper | S14 2:59; Jul 21/24/27 ⊇-ridden; Aug 1 ×2 — incl. first dict-walking variant | expanding |
-| N35 count accumulator | S13; Jul 21; Aug 1 paid | expanding |
-| N37 split-then-index-convert | S13; Jul 21; Jul 27 ⊇-ridden; Aug 1 paid | expanding |
+| **N40 composition** | Jul 16 13:28 → Jul 19 9:47 → Jul 26 2nd def 8:00/15:00 → **Aug 8 3rd def 12:27/15:00 PASS** | 14→21d, **~Aug 29** |
+| **N41 integrative ladder** | Jul 16 fail → Jul 17 +1:00 → Jul 19 5:40 → Jul 26 2nd def 5:56/12:00 → **Aug 8 3rd def 5:44/12:00 PASS — PERSONAL BEST** | 14→21d, **~Aug 29** |
+| N36 record-keeper | S14 2:59; Jul 21/24/27 ⊇-ridden; Aug 1 ×2 incl. dict-walking variant; Aug 8 ×2 (both defenses) | expanding |
+| N35 count accumulator | S13; Jul 21; Aug 1; Aug 8 ×2 | expanding |
+| N37 split-then-index-convert | S13; Jul 21; Jul 27 ⊇-ridden; Aug 1; Aug 8 | expanding |
 
-- **Recurring minor flag:** double lookup / repeated computation (S24, Jul 27, Jul 31 double-split, Aug 1 triple-int pre-fix). Efficiency only. Watch, don't drill.
+- **★ Recurring minor flag — double lookup / repeated computation. FIFTH SIGHTING Aug 8** (S24 · Jul 27 · Jul 31 double-split · Aug 1 triple-int · **Aug 8: `line.split(" ")` computed five times per line plus one discarded bare call**). Now the most consistent pattern in his code. Efficiency only. Watch, don't drill — but if a sixth lands, offer the micro-drill.
 
 ## produced-once
 | Node | Evidence | Next |
 |---|---|---|
-| N24 except-as · N25 ladders · N26 .get() fallback | Jul 17 cold, Jul 19, Jul 26 ⊇-ridden; N23/N24 paid Aug 1 (narrow net, error object used); N26 paid Aug 1 in new costume (per-key seed) | expanding |
+| N24 except-as · N25 ladders · N26 .get() fallback | Jul 17 cold, Jul 19, Jul 26 ⊇-ridden; N23/N24 paid Aug 1; N26 paid Aug 1 (per-key seed) + Aug 3 (tally cold) + Aug 8 (quiet lookup, honest fallback) | expanding |
 | N29 datetime pipeline | Jul 19 hack3 | rides item3.py reruns |
-| N30w-"a" append | Jul 19 hack3 | rides composite builds |
-| N34 gate pattern | S13–S16 + Jul 19 solo design; Aug 1 paid at the boundary (build-site gate) | rides composite builds |
+| N30 w-"a" append | Jul 19 hack3 | rides composite builds |
+| N34 gate pattern | S13–S16 + Jul 19 solo; Aug 1 at the boundary; Aug 8 (trail gate) | rides composite builds |
 | N59 list comprehensions | Jul 19 → Jul 20 composition-proven; Aug 1 paid — load-bearing, filtered, chain-in-recipe | expanding |
-| N60 generators | Jul 21 both forms cold; Jul 24 + Jul 27; **Jul 31 PAID EARLY — pair-yielding cold rep** | 7→14d, **~Aug 14** |
-| Pair-yielding sub-pattern | PROMOTED Jul 31: cold, blank, fresh data; probe discipline unprompted; conversion-in-recipe from draft 1 | rides N60 clock |
-| **N50 permissions** | **PROMOTED Aug 1 — full both-directions cycle on boogiewoogie** (see S29 record). Lock step guided, unlock cold, one exact ten-character tag prediction HIT, first-match-wins absorbed by machine falsification | expanding |
-| N44 navigation trio | Jul 17 cold; Bandit Jul 25; Jul 30; Aug 1 | rides Bandit |
-| N47 cat + paths | Jul 17 cold; Bandit Jul 25; Jul 30 full ride | rides Bandit |
+| N60 generators | Jul 21 both forms cold; Jul 24 + Jul 27; Jul 31 PAID EARLY — pair-yielding cold rep | 14d, **~Aug 14 — APPROACHING** |
+| Pair-yielding sub-pattern | PROMOTED Jul 31 | rides N60 clock |
+| **N72 tally-dict** | **PROMOTED Aug 3 (S30)** — cold rep, fresh data (bird sightings). Build loop + report loop both solo. `tally.get(animal, 0) + 1` produced with no scaffold; counts exact | expanding |
+| **N50 permissions** | PROMOTED Aug 1 — full both-directions cycle on boogiewoogie | expanding |
+| N44 navigation trio | Jul 17 cold; Bandit Jul 25; Jul 30; Aug 1; **Bandit Aug 4** | rides Bandit |
+| N47 cat + paths | Jul 17 cold; Bandit Jul 25; Jul 30 full ride; **Bandit Aug 4 — the level was a cat-argument problem end to end** | rides Bandit |
 | N51 file operations | Jul 20 cold rep | expanding |
 | N54 flash+headless | Jul 18 (guided) | one-time skill |
-| N55 SSH | Jul 18 → Jul 24 → Jul 25 → Jul 28/30 solo → Jul 31 by hostname → **Aug 1: resolution flaked twice + one mid-session drop, ridden solo** | rides Bandit + Pi work |
+| N55 SSH | Jul 18 → Jul 24 → Jul 25 → Jul 28/30 solo → Jul 31 by hostname → Aug 1 flaky, ridden solo → **Aug 4 clean login to Bandit** | rides Bandit + Pi work |
 
 ## taught / needs evidence
-- **N49 find/grep** — taught Jul 23; Aug 1 direct cold attempt CONVERTED TO GUIDED (leading-slash forgotten → retaught; grep seats guided). Strong contact rep banked. **Cold rep debt stands — NOW THE ONLY OPEN DEBT IN TIER L**
-- **N72 tally-dict pattern** — taught + guided Aug 1. Build loop guided, report loop solo. Cold rep on fresh data promotes → burst #1
+- **N49 find/grep** — taught Jul 23; Aug 1 cold attempt CONVERTED TO GUIDED. **Cold rep re-spec'd Aug 4; setup aborted on a paste fault, rep never ran. Cold debt stands — STILL THE ONLY OPEN DEBT IN TIER L**
+- **Bare `--` as end-of-flags marker** — met Aug 4 via cat's own hint line (`to pass '--spaces' as a value, use '-- --spaces'`). Read, understood, **not produced** — the solve used `./` + quotes instead. Filed
 - **Narrow-net + `continue`** — taught Aug 1, not owed
-- **N73 dict/set comprehensions** — set form met-in-the-wild Aug 1 (invented by analogy); dict form untaught, filed
+- **N73 dict/set comprehensions** — set form met-in-the-wild Aug 1; dict form untaught, filed
 - **N71 standard input** — taught Jul 30, met in the wild. Pipes/redirection downstream, untaught
-- N27 error taxonomy — 17 species + Aug 1 order-swap variant (`except A as ValueError` → NameError during handling; two-traceback stack read)
-- **Boundary discipline (candidate principle, not yet a node):** filter/convert ONCE at the edge. Three sightings Aug 1. Promote if it keeps earning
+- N27 error taxonomy — 17 species + Aug 1 order-swap variant. **Aug 8: `int()` on `"8.2"` → ValueError, met and repaired inside the timer (float), no new species**
+- **Boundary discipline (candidate principle, not yet a node):** filter/convert ONCE at the edge. Three sightings Aug 1. Aug 8's five-splits-per-line is the same family in efficiency clothes. Promote if it keeps earning
+- **★ "The shell rewrites before the program sees anything" (candidate principle, not yet a node):** THREE sightings — glob expansion (Aug 1) · quoted `-name` pattern (Aug 1) · **argument splitting on spaces (Aug 4)**. Same mechanism, three costumes. Promote if it keeps earning
 
 ## ★ TIER D — CONTAINERS (opened Jul 31)
 | Node | State |
 |---|---|
-| N62 client/daemon/socket model | taught. Socket is a file → the permissions tag is the law there too. **Group `docker` = root-equivalent** (convenience AND privilege-escalation path) |
-| N63 images vs containers | produced (guided). One image, many containers = template/instance, OOP arriving early |
-| N64 port mapping | PRODUCED, verified externally (`-p 8080:80`, page loaded from another machine) |
+| N62 client/daemon/socket model | taught. Socket is a file → the permissions tag is the law there too. **Group `docker` = root-equivalent** |
+| N63 images vs containers | produced (guided). Template/instance = OOP arriving early |
+| N64 port mapping | PRODUCED, verified externally (`-p 8080:80`) |
 | N65 volume mapping | PRODUCED, verified live. **The mount is a live window, not a snapshot** |
-| N66 container disposability | PRODUCED, controlled experiment (unmounted file died; mounted HTML survived) |
+| N66 container disposability | PRODUCED, controlled experiment |
 | N67 docker exec | produced (guided). Prompt-reading three machines deep |
 | N68 compose | UNTAUGHT, deliberately gated on a second container |
 | N69 shell scripting | taught only. Shebang · if/fi · case/esac · $() · set -e · set -x · `curl \| sh` hazard |
-| N70 disks/partitions/mounting | taught, no production. One tree + mount points · sda/sda1 · Pi has no internal storage · `lsblk` unrun; SSD unwiped |
+| N70 disks/partitions/mounting | taught, no production. `lsblk` unrun; SSD unwiped |
 
-## PYTHON TIER STATUS: all core nodes production-evidenced · one taught-with-debt sub-pattern (N72 tally) · clocks expanding
-- **N40/N41 second-defense clocks ~Aug 9** — next Python queue items
-- **N60 ~Aug 14** (paid early Jul 31)
-- Frontier: tally cold rep · Bandit levels · Telegram hack N52/N53 · nested comprehensions (filed) · dict comprehensions (filed)
+## PYTHON TIER STATUS: all core nodes production-evidenced · clocks pushed out
+- **N40/N41 next defenses ~Aug 29** — three weeks of Python review slack
+- **N60 ~Aug 14** — the only Python clock in the near field
+- Frontier: dict comprehensions (filed) · nested comprehensions (filed) · Telegram hack N52/N53
 
 ## Linux nodes (Tier L)
 | Node | State |
 |---|---|
 | N42/N43/N45/N48 | taught; ridden by every Bandit + Pi session |
-| N44 · N47 · N51 · **N50** | **produced-once** |
-| N46 paths | taught. **Leading-slash soft spot ×4** (Jul 20 ×2 · Jul 23 adjacent · Aug 1 forgotten outright, retaught). The slash is what MAKES it absolute. Fifth sighting → micro-drill offered, his call |
-| N49 find/grep | taught + guided (Aug 1 guided rep banked). **Cold rep pending — Tier L's sole open debt** |
-| N71 standard input | taught, met in the wild. Pipes/redirection downstream, untaught |
+| N44 · N47 · N51 · N50 | produced-once |
+| N46 paths | taught. **Leading-slash soft spot ×4** (Jul 20 ×2 · Jul 23 adjacent · Aug 1 forgotten outright). Fifth sighting → micro-drill offered, his call |
+| N49 find/grep | taught + guided. **Cold rep pending — Tier L's sole open debt** |
+| N71 standard input | taught, met in the wild |
 
-**N46/N49 knowledge added Aug 1 (guided rep + self-directed expansion):**
-- **Glob needs raw material:** the shell only rewrites `*` when the standing room has a match; unmatched globs pass through as literal characters (discovered by contact)
-- **Quoted `-name "*.py"` mechanism owned** — quotes stop the shell's rewrite so find receives the pattern
-- **find echoes the road it was handed** (his own mid-flight repair: "Oh! full paths")
-- **grep's three seats: grep · pattern · papers.** No starting-point slot; handed a room it answers "Is a directory"
+**N46/N49 knowledge (Aug 1, unchanged):**
+- **Glob needs raw material:** unmatched globs pass through as literal characters
+- **Quoted `-name "*.py"` mechanism owned** — quotes stop the shell's rewrite
+- **find echoes the road it was handed**
+- **grep's three seats: grep · pattern · papers.** No starting-point slot
 - **grep output anatomy:** `filename:` prefix with multiple files; silence from a searched file IS the "no"
-- **grep matches characters, not words** (`record` inside "Un**record**ed"); `-w` filed
-- **Trailing slash in a typed address = grammar with no word after — ignored** (find/cd/ls/cat; rsync exception filed; slashless form is style, not law)
-- **★ Per-component globbing — HIS DISCOVERY:** `/c/CS/*,July/*.py` — wildcards expand at every level; shell builds the crossproduct. Used for a fossil dig of every record-keeper since Jul 12
-- Jul 30 addition stands (path's second job). Jul 31 addition stands (hostname vs IP)
+- **grep matches characters, not words**; `-w` filed
+- Trailing slash in a typed address = grammar with no word after — ignored
+- **★ Per-component globbing — HIS DISCOVERY:** `/c/CS/*,July/*.py`
 
-**N50 knowledge added Aug 1 (REP 2 cycle):**
-- **Regular file's type character is `-`, not `f`** — the convention marks special cases (d, l); the default goes unmarked
-- **First-match-wins, absorbed by falsification:** owner match fires first and FINAL; group `rw-` two characters away is never consulted for the owner. Predicted against, machine enforced
+**N47/N61 knowledge added Aug 4 (Bandit 2→3):**
+- **★ A leading `--` marks a FLAG, and flags are read before filenames.** cat rejected `--spaces` and exited before `in`, `this`, `filename--` were ever considered — which is why the four "no such file" errors he predicted never appeared. Falsified cleanly by the machine
+- **`./` and quoting solve two DIFFERENT problems** — dashes vs spaces. Neither substitutes for the other. `./--spaces` fixes the flag read and leaves the split untouched
+- **`--` bare = end-of-flags marker** (from cat's hint line). Taught, unproduced
+- **The shell splits on spaces before the program sees anything** — one filename became four arguments; none of them was the file
+
+**N50 knowledge (Aug 1, unchanged):**
+- **Regular file's type character is `-`, not `f`**
+- **First-match-wins:** owner match fires first and FINAL
 - **The verbs are independent switches:** `-w-` = legal write into a file you cannot read
-- **ls -l columns:** the number after the tag = link count (directory entries pointing at the file; ~always 1; says nothing about contents) · the number after ownership = **size in bytes**
-- **Silence taxonomy, entry #2:** cat of an empty file = no output + prompt returned immediately (program finished, truthfully reporting emptiness) vs Jul 30's `cat -` hang (no output, NO prompt — waiting on you). **The prompt is the tell**
+- **ls -l columns:** link count after the tag; **size in bytes** after ownership
+- **Silence taxonomy #2:** cat of an empty file = no output + prompt returned, vs Jul 30's `cat -` hang (no prompt). **The prompt is the tell**
 
 ## Tier C — CYBER
 | Item | State |
 |---|---|
-| Bandit gate | OPEN; production side cleared — **N50 now produced-once strengthens it** |
+| Bandit gate | OPEN; production side cleared |
 | Bandit level 0 · 0→1 | CLEARED Jul 25 |
-| Bandit 1→2 | CLEARED Jul 30. Login as bandit2 still unconfirmed |
-| **Bandit 2→3** | next; burst #2. Twice queued, zero runs |
+| Bandit 1→2 | CLEARED Jul 30 |
+| **Bandit 2→3** | **CLEARED Aug 4 (guided).** Login as bandit2 confirmed |
+| **Bandit 3→4** | next |
 
-- Port concept taught Jul 25; banner intel: `/etc/bandit_pass/`, per-user readability — the permissions tag system IS the game's spine, **and N50 is now produced against exactly that system**
-- **Spoiler discipline:** passwords stay his; Claude verifies by report only. Passwords NOT in this file.
-- **Password hygiene:** save at extraction; password file stays OUT of the committed repo
+- **Assist accounting, 2→3:** Claude supplied the flags-before-filenames fact and pointed at quoting; the four-argument split diagnosis and the final composition (`cat ./"--spaces in this filename--"`) were his. Rides as production evidence, not a cold clear
+- **The level did NOT collect the N49 debt** — the file was hidden in plain sight, no `find` required. Future file-hiding levels remain a legal collector
+- Port concept taught Jul 25; banner intel: `/etc/bandit_pass/`, per-user readability
+- **Spoiler discipline:** passwords stay his; Claude verifies by report only. Passwords NOT in this file
 - `bandit0`/`bandit0` is public
 
 ## Gates
-- Linux acquisition: OPEN · Bandit: OPEN and ENTERED · Containers: OPEN, three core ideas produced · Compose: gated on a second container
+- Linux acquisition: OPEN · Bandit: OPEN and ENTERED, 4 levels cleared · Containers: OPEN, three core ideas produced · Compose: gated on a second container
 
 ## Tier H — hardware/Pi
-- **Camera project: still PAUSED** (Jul 20, his call). All V1 parts in hand.
-- boogiewoogie in active use (container host + tonight's permissions lab); camera pause untouched
+- **Camera project: still PAUSED** (Jul 20, his call). All V1 parts in hand
 - N54/N55 produced · N52/N53/N56/N57/N58 untaught
 - Filed ideas: Pi-hole · WireGuard · Jellyfin · Flask status dashboard
 
 ## ★ MEDIA SERVER PROJECT (opened Jul 31)
-- Goal: movie library on boogiewoogie. Jellyfin = library + streaming; transcoding is the Pi 4's ceiling.
-- **Blocked on storage, not skill:** SSD carries seller's untrusted OS — not wiped, not formatted, not mounted. Boot-order trap live: connect bridge while Pi runs; wipe promptly.
-- **Declined, on record:** the dev-smurf stack (automated acquisition pipeline; ruling about the artifact, not the person; also a poor teacher — nine services at once).
-- Filed as its good part: the Flask dashboard shape (opens N52/N53).
+- Goal: movie library on boogiewoogie. Jellyfin = library + streaming; transcoding is the Pi 4's ceiling
+- **Blocked on storage, not skill:** SSD carries seller's untrusted OS — not wiped, not formatted, not mounted. Boot-order trap live: connect bridge while Pi runs; wipe promptly
+- **Declined, on record:** the dev-smurf stack (ruling about the artifact, not the person; also a poor teacher)
+- Filed as its good part: the Flask dashboard shape (opens N52/N53)
 
 ## ★ EXTERNAL SCHEDULE
 **2026-2학기: 프로그래밍언어 (AAK10076-40), IT경영전공 교필 — JAVA.** 이충석 · 월 11:30–13:20 · 화 09:30–11:20 · D동401호 · 3학점.
@@ -151,85 +167,93 @@ N22 try/except · N5 Git · N30 with-frame
 - Decision deferred: pre-study vs walk in cold
 
 ## Conduct rules (standing)
-Timer to zero · mid-rep question voids · spec questions before clock free · no psychological commentary on motives/enthusiasm · predictions-first on shell runs (**commands are not calls** — a call must be committable enough to be wrong) · his self-report is the diagnosis · when memory holds no evidence, structural prediction IS the honest prediction · design authority over his own tools is his · traced-correct output disagreeing with spec gets flagged aloud (**binds both sides — fired Aug 1: ledger said locked, machine said default tag, machine won, rep re-specced on the evidence**) · a burst = one completed atom · defenses and new-idea acquisition never split · "I don't remember that session" changes nothing ·
-**a prediction Claude has already spoiled is void — struck, not scored (covers any prior statement in the chat). THREE instances now: Jul 30 ls-count · Jul 31 curl · Aug 1 read-fail call** ·
+Timer to zero · mid-rep question voids · spec questions before clock free · no psychological commentary on motives/enthusiasm · predictions-first on shell runs (**commands are not calls**) · his self-report is the diagnosis · when memory holds no evidence, structural prediction IS the honest prediction · design authority over his own tools is his · traced-correct output disagreeing with spec gets flagged aloud (**binds both sides**) · a burst = one completed atom · defenses and new-idea acquisition never split · "I don't remember that session" changes nothing ·
+**a prediction Claude has already spoiled is void — struck, not scored. THREE instances: Jul 30 ls-count · Jul 31 curl · Aug 1 read-fail call** ·
 **the level page is the spec** — superset, not recipe; walkthroughs never ·
 **a forgotten fact gets retaught plainly, not dangled — rep converts cold→guided, honestly logged** ·
-**★ one session number per calendar day; sits fold in (Aug 1, his design)**
+**one session number per calendar day; sits fold in** ·
+**★ a deliberate design choice, stated as such, is logged as intentional and not second-guessed** (Aug 8: the `>=` tie rule) ·
+**★ look-don't-recall binds Claude — dates, node states, and clock arithmetic come from reading the file** (fired Aug 8: caught the second/third-defense mislabel by reading)
 
 ## Repo hygiene & reconciliations
 - hack3 = `19th,July/item3.py`. streak_log.txt honest as of Jul 19; runs since unconfirmed
 - review.py (Jul 21) and practice1.py (Jul 27) retain his chosen imperfections
-- `1st,August/` holds review1.py + review2.py — committed and pushed Aug 1
-- CRLF/LF warnings on git add: ruled COSMETIC; proceed normally; `core.autocrlf` filed
-- **RECORD CORRECTION (Aug 1): perms_test.txt was NOT locked.** Ledger carried "locked since Jul 24, unread"; `ls -l` showed the default `-rw-rw-r--`. Machine wins; no story invented about how. **Also: the file is 0 bytes — empty since creation.** Current state: unlocked, empty, mystery resolved (there was never anything inside)
+- `1st,August/` holds review1.py + review2.py — committed Aug 1
+- **`3rd,August/` holds review1.py** (tally cold rep) · **`8th,August/` holds defense.py + defense2.py**
+- CRLF/LF warnings on git add: ruled COSMETIC; `core.autocrlf` filed
+- **Tooling fact (Aug 4):** Git Bash paste = right-click or Shift+Insert; Ctrl+V does not work. A paste carrying an invisible character (`$'\302\226'`) killed the first command and cascaded every dependent line — read the FIRST error, not the last
+- RECORD CORRECTION (Aug 1): perms_test.txt was never locked and is 0 bytes. Machine won
 - boogiewoogie home: `get-docker.sh` · `site/` · `perms_test.txt` (unlocked, empty)
 - Bandit passwords: outside the committed repo
 
 ---
 
-## Session record — Jul 31 evening (day 36, S28 under the old convention, BURST-ORIGIN)
-**Mode: production — burst #1 by appetite after S27's close.**
-Pair-yielding generator cold rep, fresh data (arcade scores): probe run (separate, swapped out before the build) → final run (seed-0 + empty-title record-keeper, if-guarded overwrite, fresh generator consumed once) → `galaga/5600` exact, first draft correct, conversion-in-recipe present from the start (the Jul 27 missing 10%, closed).
-**Rulings:** pair-yielding → produced-once · N60 PAID three days early, 7→14d ~Aug 14 · double-split flag restated · CRLF ruled cosmetic · Bandit 2→3 queued, not entered (his report, logged plainly).
-**By the day-metric:** surplus after a closed session, run honest.
+## Session record — Aug 3 (day 39, S30, PARTIAL BLOCK)
+**One atom: N72 tally-dict cold rep, fresh data (bird sightings).**
+- Build loop `tally[animal] = tally.get(animal, 0) + 1` produced cold, no scaffold. Counts exact (`magpie 4, cat 2, pigeon 2, heron 1`), verified against a hand trace
+- Two distinct loops as specified. Report loop's first version printed bare values; **caught against the spec and repaired solo** — cold debugging, not a violation
+- `print(tally)` checkpoint before writing the report loop — look-don't-recall applied to his own program state, third sighting of that instinct
+- **Spec deviation flagged aloud:** spec said `magpie: 4`, output was `magpie:4`. Verdict gate didn't include format → ungated, Claude's to have specced tighter
+- **Timer irregularity, logged honestly:** clock started after the build loop existed; only the report portion (2:52) measured. Cold criterion met throughout; cap 10:00 never in danger
+- **RULING: N72 → produced-once.** ⊇ credit now LIVE for N26, N10, N9, N11, N39
+- **Ruled a partial block, not a full session** — his standard, applied against a generous reading. Bandit 2→3 offered as a second atom, declined
 
 ---
 
-## Session record — Aug 1 (day 37, S29, FULL BLOCK — one session, three sits)
-**Mode: review (early payment — nothing due). Python ×2 builds · Linux REP 1 · Linux REP 2 (evening).**
+## Session record — Aug 4 (day 40, S31, PARTIAL BLOCK)
+**One atom: Bandit 2→3, CLEARED (guided).**
+- `ls` prediction HIT — file renders as `--spaces in this filename--`
+- First cat attempt: predicted four "no such file" errors. **Machine gave one flag-rejection and an early exit.** Clean falsification, absorbed without argument. Claude prompted the missing fourth-argument call before the run; the amendment was his
+- `./` recalled cold from level 1→2, unprompted, no lookup. Right tool, half the problem
+- Under one prompt he produced the four-argument split himself and stated that none of them names the file — **that's the diagnosis, and he made it**
+- Claude named quoting by pointing at his own find work; the composition `cat ./"--spaces in this filename--"` was his. Password extracted
+- **N48 minor:** called the PuTTY session "Git Bash" mid-level. First sighting, noted only
+- **N49 cold retry spec'd as the second atom.** Setup block pasted → invisible character killed `mkdir`, whole tree failed to build. Hand-typed retry issued; **rep never ran.** Day closed here
+- **Bandit avoidance counter closed:** three times queued, one run
 
-### Python build 1 — review1.py (reading log, malformed wednesday)
-- Draft 1: `type(int(...))` filter → ValueError. **You can't ask int() "would you crash?" without it crashing** — only askable inside a try.
-- Pivot to `!= "n/a"`: output correct (4/156/thursday), requirement 2 unmet — a filter dodges one known specimen; a net survives any garbage.
-- His question ("why did v1 feel better?") → shape-vs-robustness: v1 converted once at the boundary; v2 smeared conversion ×3 + whole-loop net (TypeError fee). **The virtues aren't in conflict: narrow the net.**
-- Completion: comprehension splits · narrow try · `except ValueError as A` with the object used · `continue` taught. En route, solo: except-clause order swap (new species variant, two-traceback stack read) · `/0` caught · TypeError str-vs-int.
-- Paid: N59 full weight · N35 · N36 · N37 · N23/N24 on completion. Silent-bug pattern again (draft-2 `total = 0` in the loop).
+---
 
-### Python build 2 — review2.py (workout tally)
-- **His question — "is the tally novel?" — record checked: NOVEL. CLAUDE ERROR, logged:** spec framed an untaught composite as review. Converted to acquisition, no debt against him.
-- Taught: **tally = seed-then-feed, seed per-key via `.get(key, 0)`** — the asymmetry working for you.
-- Free find: accidental **set comprehension**, invented by analogy — deduplicating, hence exactly wrong for tallying. Met-in-the-wild; dict comprehensions filed.
-- Production: build loop guided; **report loop solo** — first dict-walking record-keeper, gate correctly protecting both sum and contest.
-- Flag → completion: `'rest'` was IN the tally (gated at read) → gate relocated to the build site, dead code deleted. Output exact: 8 sessions, run/4.
-- Rulings: N72 → taught+guided, cold → burst #1 · N26 new costume · N34 at the boundary · N36 dict variant. **Boundary discipline: three sightings in one day — candidate filed.**
+## Session record — Aug 8 (day 44, S32, FULL BLOCK)
+**Mode: review. Both integrative defenses, third time, cold.**
 
-### Linux sit 1 — REP 1 (find/grep), attempted cold → CONVERTED GUIDED
-- Commands-not-calls sendback (third instance); calls then committed.
-- Contact series from one root — standing in `~`, addressing relatively: find echoed its literal string · per-argument complaints read · bare glob reached grep literally → **discovery: unmatched globs pass through**.
-- "I forgot" on the leading slash → retaught plainly, cold surrendered. **Fourth sighting.**
-- Repairs: absolute path + quoted `-name` (mechanism owned) · mid-flight self-repair ("full paths — find echoes the road") · one-per-line committed.
-- find leg HIT as called. grep leg: two seat-confusions guided → Road 1 → HIT (review2.py + `tally[data]`); 4–5 vs 6 near miss (*his code grew past his mental model*); `filename:` prefix and silence-as-no by contact.
-- Self-directed expansion: multi-room finds through a Korean-named path · trailing-slash grammar · **★ per-component glob discovery + fossil dig** · "Unrecorded" substring → characters-not-words; `-w` filed.
-- **N49 cold debt stands.**
+### Pre-session ruling — prioritization
+Debt (N49) vs clocked items (N40/N41, due ~Aug 9) competed. Claude's first recommendation put the debt first; **reversed on his question.** Reasoning that survived: a debt cannot decay and had already improved with age; a spacing clock that overruns costs a real measurement. The counterargument (13 days vs 14 under-tests the interval) was named and ruled noise. Convenience arguments were named as the weak part of the original call.
 
-### Linux sit 2 (evening) — REP 2 (permissions, boogiewoogie) → **N50 PROMOTED**
-- SSH: hostname resolution failed twice, one mid-session drop — ridden to a working session solo (N55 evidence).
-- Opening tag call from memory: `f -wx r-x r-x` + ownership. Type MISS (**regular file = `-`, not `f`** — the convention marks special cases), owner/group MISS, others partial, ownership HIT.
-- **Evidence-contradicts-record flag FIRED:** actual tag `-rw-rw-r--` — the default; the file was NOT locked, contra the ledger. Machine wins; record corrected; **rep re-specced to the full both-directions cycle** (a stronger N50 rep than the original spec).
-- **Lock (guided):** `chmod r o-r` repaired via pointers — welded who·what·verb word; `o`=others; target required. His answer for the owner letter: `u`. Final `chmod u-r perms_test.txt`.
-- **Tag call `--w-rw-r--` — EXACT TEN-CHARACTER HIT** (link count and size carried too).
-- **Read attempt:** his call — success via group membership, mechanism stated. **Machine falsified it: Permission denied.** First-match-wins absorbed by contact: owner match fires first and FINAL; group never consulted. Shape call near-hit (anatomy right, words wrong). **STRIKE #3 ON CLAUDE:** the mechanism was stated before the call was requested → call void under the spoiled-prediction rule, struck, not scored. What survives the strike: he predicted against a stated mechanism and the machine itself settled it.
-- `-w-` noted live: write-without-read is legal — the verbs are independent switches.
-- **Unlock (cold, correct):** `chmod u+r`. Tag call `-rw-rw-r--` consistent — HIT by evidence.
-- **Contents call:** "one line — the `1` is the giveaway" (flagged as assumption). **MISS, the season finale: the `0` was the giveaway — size in bytes. The file is EMPTY, and was since Jul 24.** cat performed a perfectly successful read of nothing. The `1` = link count (filed). **Silence taxonomy entry #2:** prompt-returned emptiness vs Jul 30's promptless stdin hang — the prompt is the tell.
-- **Ruling: N50 → produced-once.** Lock guided, unlock cold, three tag reads, one exact prediction HIT, mechanism absorbed by falsification. **Tier L debt: N49 alone.**
+### Defense 1 — N40 composition, THIRD defense: **PASS, 12:27/15:00**
+Fresh domain (trail-running log). Output `4 / 39.5 / 2026-03-09`, verified against a hand trace.
+- File written from Python (`"w"`), read back in a separate frame — the mode-is-a-contract model held cold
+- `int("8.2")` → ValueError met and repaired to `float()` inside the timer, solo
+- Date printed as `2026-03-04:` — **trailing colon caught and chained off solo** (`.split(":")[0]`), unprompted
+- **Tie at 12.6 handled deliberately:** `>` → `>=`, keeping the most recent record. Stated reason: "it just makes more sense to me." Logged as intentional design, not second-guessed
+- **N33 empty-tail unexercised** — his write string carried no trailing newline, so `lines` had no empty final element. Spec artifact, not a fault; ⊇ credit adjusted accordingly
+- **Double-lookup, fifth sighting:** `line.split(" ")` computed five times per line, plus a bare discarded call on line 15
 
-**Convention amendment (his design, evening):** one session number per calendar day; sits fold in. S30 does not exist; this all is S29. Cost named once (Jul 31's S27+S28 stands as old-convention artifact); conceded.
+### Defense 2 — N41 integrative ladder, THIRD defense: **PASS, 5:44/12:00 — PERSONAL BEST**
+Fresh domain (shipping costs by city). Output: culprit line naming `'jeju'`, total `14700`, honest fallback line.
+1. **Loud net via the caught object** — `except KeyError as A:` with `{A}` printing `'jeju'` quotes-on. This was Jul 16's exact gap; third clean showing
+2. **Ladder** — KeyError first, `except Exception as B` last, silent on the healthy run
+3. **Total structurally correct** — accumulator inside the try, after the lookup. Jul 16's failure inverted: the try's jump makes a missing key structurally incapable of contaminating the sum. Built unprompted
+4. **Quiet lookup** — `.get()` with a non-impersonating fallback, return wrapped in print
+- Line 8's bare `shipping[request]` flagged as either a deliberate explicit-trigger or a vestigial line; **left open for his ruling**
 
-**Claude errors this session:** tally spec error · spoiled-prediction strike #3.
+### Rulings
+- **N40 → third defense PASSED, 14→21d, next ~Aug 29**
+- **N41 → third defense PASSED, 14→21d, next ~Aug 29**
+- ⊇ paid: N30, N31, N34, N35, N36, N37, N4, N7, N12 (via N40) · N9, N10, N35, N36, N12/N13, N25, N34 (via N41)
+- **Ledger correction issued** (second → third defense mislabel), caught by reading rather than recalling
+- N49 offered as a third atom, declined. Session closed at two defenses
 
-**By the day-metric:** two Python builds, two shell reps, three sits; every wall worked to resolution; two honest cold→guided conversions and two promotions across two tracks. Dense, honest day.
+**By the day-metric:** first full block since Aug 1. Both defenses cold, both under cap, one a personal best, every repair inside the timer made solo.
 
 ---
 
 ## Next (queue-picked)
-1. **Bandit 2→3** (burst #2) — N49's cold rep rides on file-hiding levels; a direct find/grep cold retry after a few days' gap is also legal
-2. **Tally cold rep, fresh data** (burst #1) — promotes N72
-3. **N40/N41 second-defense clocks ~Aug 9**
-4. **N60 generators ~Aug 14**
+1. **N60 generators ~Aug 14** — the only clock in the near field
+2. **N49 find/grep cold retry** — spec written, setup pending; closes Tier L's last debt
+3. **Bandit 3→4**
+4. **N40/N41 fourth defenses ~Aug 29**
 5. **SSD: wipe → format → mount** — the media-server blocker; boot-order trap live
-6. Second container → compose (N68) · Telegram hack / Flask dashboard (filed) · camera resumes on his word only
+6. Second container → compose (N68) · dict comprehensions · Telegram hack / Flask dashboard (filed) · camera resumes on his word only
 
 ═══════════════════════════════════════════════
 # PART B — THE KNOWLEDGE GRAPH (structure)
@@ -249,22 +273,22 @@ Pair-yielding generator cold rep, fresh data (arcade scores): probe run (separat
 - N19 def/return ← N1 · N20 round() ← N19,N4 · N21 substitution model ← N19
 
 **Tier 2 — errors & robustness**
-- N22 try/except ← N12 · N23 specific nets ← N22 · N24 except-as ← N23 · N25 ladders ← N23,N13 · N26 .get()/None ← N9,N11 · N27 taxonomy (17 species + Aug 1 order-swap variant) ← N22,N4
+- N22 try/except ← N12 · N23 specific nets ← N22 · N24 except-as ← N23 · N25 ladders ← N23,N13 · N26 .get()/None ← N9,N11 · N27 taxonomy (17 species + order-swap variant) ← N22,N4
 
 **Tier 3 — library & I/O**
 - N28 import ← N1 · N29 datetime ← N28 · N30 file I/O ← N28,N2
 
 **Tier 3 — composite patterns**
 - N31 .split() · N32 .append() · N33 empty-tail · N34 gate · N35 count accumulator · N36 record-keeper (incl. dict-walking variant) · N37 split-index-convert · N38 if-guarded overwrite · N39 seed-then-feed
-- N40 integrative composition — FLUENT, twice defended
-- N41 integrative ladder — FLUENT, twice defended
+- N40 integrative composition — FLUENT, **three times defended**
+- N41 integrative ladder — FLUENT, **three times defended**
 - N59 comprehensions ← N7,N6,N34 · N60 generators ← N59,N7,N19 (pair-yielding sub-pattern PRODUCED Jul 31)
-- N72 tally-dict (per-key seed-then-feed) ← N9,N10,N11,N26,N39 — taught + guided Aug 1, cold rep pending
+- **N72 tally-dict (per-key seed-then-feed) ← N9,N10,N11,N26,N39 — PRODUCED-ONCE Aug 3**
 - N73 dict/set comprehensions ← N59,N9 — set form met-in-the-wild Aug 1; dict form untaught, filed
 
 **Tier L — Linux/shell**
-- N42 shell/OS model · N43 cwd · N44 nav trio — produced · N45 home/~ · N46 paths (two jobs; leading-slash soft spot ×4) · N47 cat — produced · N48 prompt anatomy · N49 find/grep — taught+guided, **sole Tier L debt** · **N50 permissions — PRODUCED Aug 1 (both directions)** · N51 file ops — produced
-- N71 standard input ← N42 — taught, met in the wild. Downstream untaught: pipes and redirection — Bandit's home turf
+- N42 shell/OS model · N43 cwd · N44 nav trio — produced · N45 home/~ · N46 paths (two jobs; leading-slash soft spot ×4) · N47 cat — produced, **argument-parsing knowledge added Aug 4** · N48 prompt anatomy · N49 find/grep — taught+guided, **sole Tier L debt** · N50 permissions — PRODUCED · N51 file ops — produced
+- N71 standard input ← N42 — taught, met in the wild. Downstream untaught: pipes and redirection
 - N69 shell scripting ← N42,N44 — taught · N70 disks/partitions/mounting ← N43,N46 — taught, no production
 
 **Tier D — containers**
@@ -282,26 +306,28 @@ Pair-yielding generator cold rep, fresh data (arcade scores): probe run (separat
 - Jellyfin ← N64,N65,N70 — storage is the only real blocker
 
 **Tier C — cyber**
-- N61 Bandit ← N44,N46,N47,N49,N50,N55,N71 — levels 0, 0→1, 1→2 cleared; the shell tier's review engine
+- N61 Bandit ← N44,N46,N47,N49,N50,N55,N71 — **levels 0, 0→1, 1→2, 2→3 cleared**; the shell tier's review engine
 
 **External block:** OOP ← N19,N21 — 2026-2학기 via Java (weeks 4–10). N63's template/instance is an early sighting
 
 **Encompassing edges:**
+- N40 ⊇ N30{0.8}, N31{1.0}, N33{1.0 *only when the data carries a trailing newline*}, N34{1.0}, N35{1.0}, N36{0.8}, N37{1.0}, N4{0.7}, N7{1.0}, N12{0.8}
+- N41 ⊇ N9{1.0}, N10{1.0}, N7{1.0}, N35{0.8}, N36{0.7}, N12/N13{0.7}, N25{0.5}, N34{0.6} — best task for the error-handling cluster
 - N61 Bandit ⊇ N55{1.0}, N44{1.0}, N46{0.9}, N47{1.0}, N48{0.8}, N49{0.8 *only when a level hides a file*}, N50{0.9}, N42{0.7}, N71{0.8 when a level touches stdin}
-- N72 ⊇ N26{1.0}, N10{1.0}, N9{0.9}, N11{0.8}, N39{0.8}, N34{0.6 when gated at build} — best single dict-cluster review task once cold
-- N50 ⊇ N48{0.4}, N42{0.5} — **now live credit** (production evidence exists)
+- **N72 ⊇ N26{1.0}, N10{1.0}, N9{0.9}, N11{0.8}, N39{0.8}, N34{0.6 when gated at build} — LIVE CREDIT since Aug 3**
+- N50 ⊇ N48{0.4}, N42{0.5} — live credit
 - N71 ⊇ N42{0.6} · N46 ⊇ N43{0.8}
 - N64 ⊇ port{1.0}, N48{0.4} · N65 ⊇ N46{0.9}, N70{0.7}, N44{0.5} · N66 ⊇ N65{0.8}, N63{1.0}
 - N67 ⊇ N48{0.9}, N44{0.6}, N42{0.7} · N62 ⊇ N50{0.9}, N42{0.6} · N69 ⊇ N42{0.8}, N12/N13{0.6}, N19{0.5}
-- (prior edges unchanged: N40, N41, N49, N60, N59, item3.py, N39, N38, N37, N36, N35, N33, N30, N29, N25, N17, N16, N8, N47, N44, N51, N55, N58)
+- N39 ⊇ N35{1.0}, N36{0.6}, N7{1.0}, N1{0.7} · N38 ⊇ N12{1.0}, N36{0.8}, N10{0.6} · N37 ⊇ N31{1.0}, N6{1.0}, N4{0.4} · N36 ⊇ N7{1.0}, N12{0.8}, N1{0.6} · N35 ⊇ N7{1.0}, N1{0.7} · N33 ⊇ N31{0.8}, N14{0.5} · N30 ⊇ N28{0.5}, N2{0.4} · N29 ⊇ N28{0.5}, N4{0.3} · N25 ⊇ N23{1.0}, N13{0.8} · N17 ⊇ N15{1.0}, N12{1.0} · N16 ⊇ N15{1.0}, N7{0.7} · N8 ⊇ N7{1.0}, N6{0.8}
 
-**Graph-reading notes (Aug 1 evening):**
-- **Tier L's debt column is one item long: N49.** Two collectors — file-hiding Bandit levels, or a direct cold retry after a few days' gap. When it clears, the entire shell tier is production-evidenced.
-- **N50's promotion strengthens the Bandit position specifically:** the game's spine (`/etc/bandit_pass/` per-user readability) is now a produced skill, not a taught one.
-- **The leading slash at four sightings** remains the tier's most reliable failure point. Fifth firing → micro-drill proposed, his call.
-- **The dict cluster had its best day since S8–9.** One tally cold rep converts most of it to production evidence.
-- **Python review pressure is low** — everything pushed to ~Aug 9 (defenses) and ~Aug 14 (N60). Frontier and Bandit have the floor.
-- Boundary discipline stays a principle; it gets a node if it keeps being the shape of corrections.
+**Graph-reading notes (Aug 8 evening):**
+- **The dict cluster is fully production-evidenced.** N72's promotion lit N26/N10/N9/N11/N39 in one rep — the cluster's best day since S8–9 finally paid off
+- **Tier L's debt column is still one item long: N49.** Bandit 2→3 rode N44/N46/N47/N48/N55 at full weight but did NOT collect N49 — no file-hiding. Two collectors remain: a later Bandit level, or the direct cold retry already spec'd
+- **Python review pressure is at its lowest of the program.** Both integrative defenses pushed to ~Aug 29; only N60 (~Aug 14) sits in the near field. The frontier and the shell tier have a clear three-week runway
+- **The leading slash holds at four sightings** — no fifth. Micro-drill still unoffered by rule
+- **Two candidate principles are now competing for promotion:** boundary discipline (3 sightings) and shell-rewrites-first (3 sightings). Neither is a node yet. The double-lookup flag at five sightings may be the same animal as the first one wearing efficiency clothes — worth watching whether they converge
+- **N33's edge got a condition attached** — a composition only exercises empty-tail handling if the data actually has one. Weight was overclaiming before
 
 ═══════════════════════════════════════════════
 # PART C — HARDWARE LOG
@@ -316,7 +342,7 @@ Pair-yielding generator cold rep, fresh data (arcade scores): probe run (separat
 ## Live systems
 | Machine | State |
 |---|---|
-| **boogiewoogie** (Pi 4B 4GB, Argon ONE M.2) | ALIVE. RPi OS Lite 64 (trixie), kernel 6.18.34. USB-boot (Toshiba 28.9GB), Wi-Fi jini, **192.168.0.9** — also `boogiewoogie` (IPv6 link-local; **resolution flaky Aug 1 — name failed twice, then worked; IP is the reliable fallback**). `ssh snakeyboy777@…`. Docker Engine 29.7.0 + compose v5.3.1, daemon enabled at boot. Images: hello-world, nginx. Home: get-docker.sh · site/ · perms_test.txt (**unlocked, empty — Aug 1 resolution**) |
+| **boogiewoogie** (Pi 4B 4GB, Argon ONE M.2) | ALIVE. RPi OS Lite 64 (trixie), kernel 6.18.34. USB-boot (Toshiba 28.9GB), Wi-Fi jini, **192.168.0.9** — also `boogiewoogie` (IPv6 link-local; resolution flaky Aug 1; IP is the reliable fallback). `ssh snakeyboy777@…`. Docker Engine 29.7.0 + compose v5.3.1, daemon enabled at boot. Images: hello-world, nginx. Home: get-docker.sh · site/ · perms_test.txt (unlocked, empty). **No sessions since Aug 1** |
 
 ## Inventory
 | Item | Status |
@@ -331,7 +357,7 @@ Pair-yielding generator cold rep, fresh data (arcade scores): probe run (separat
 | micro SD reader | broke Jul 18; replace cheaply |
 
 ## Case & setup facts
-SD slot external · jumper 2-3 = always-on (set at deployment) · M.2 data path = USB bridge only · ribbon routing = weak point · Pi Connect declined · LED grammar: red steady = power, green flicker = disk.
+SD slot external · jumper 2-3 = always-on · M.2 data path = USB bridge only · ribbon routing = weak point · Pi Connect declined · LED grammar: red steady = power, green flicker = disk.
 **Boot-order trap (open):** SSD and boot stick are both bootable USB devices. Connect the bridge while the Pi is running; wipe promptly.
 
 ## Deferred / v2
